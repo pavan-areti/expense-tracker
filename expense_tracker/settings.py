@@ -125,5 +125,3 @@ USE_TZ = True
 STATIC_URL = '/static/'
 STATICFILES_DIRS=[os.path.join(BASE_DIR,'expense_tracker/static')]
 STATIC_ROOT = os.path.join(BASE_DIR,'static')
-import django_heroku
-django_heroku.settings(locals())
